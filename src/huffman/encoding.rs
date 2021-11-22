@@ -136,7 +136,7 @@ pub fn encode(message: &str) {
 
     let dict = Node::build_dict(&mut result);
 
-    // println!("DICT: {:?}", dict);
+    println!("DICT: {:?}", dict);
 
     let mut total = 0;
     for (_, v) in dict.iter() {
