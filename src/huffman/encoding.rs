@@ -1,3 +1,4 @@
+// Reference: https://github.com/sireliah/huffman_encoding
 use std::collections::{BTreeMap, HashMap};
 
 #[derive(Debug)]
